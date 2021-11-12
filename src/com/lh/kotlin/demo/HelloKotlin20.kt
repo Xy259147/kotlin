@@ -35,7 +35,7 @@ class ThePerson(address: String, name: String) {
 
     /**
      * backing field 支撑字段（域）：表示属性实际存储值的目标，只能在一个属性的访问器中使用
-     * backing property 支持属性
+     * backing property 支撑属性
      */
 }
 

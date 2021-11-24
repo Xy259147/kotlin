@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 属性中真正存储属性值（事务本身）叫field，只能在get、set方法中使用
  * @author liao hua

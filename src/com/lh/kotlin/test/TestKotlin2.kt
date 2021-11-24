@@ -5,8 +5,8 @@ package com.lh.kotlin.test
  * @date 2021/11/10 15:06
  */
 fun main(args: Array<String>) {
-//  val a: Byte = 1
-//  val i: Int = a 错误
+//  val godeep.a: Byte = 1
+//  val i: Int = godeep.a 错误
   val a: Byte = 1
   val i: Int = a.toInt() // 正确
 

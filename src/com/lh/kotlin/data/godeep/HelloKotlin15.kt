@@ -1,4 +1,4 @@
-package com.lh.kotlin.demo
+package godeep
 
 /**
  * 继承-》方法的重写

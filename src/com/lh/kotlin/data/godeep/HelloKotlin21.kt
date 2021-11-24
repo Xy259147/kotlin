@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 延迟初始化
  * @author liao hua

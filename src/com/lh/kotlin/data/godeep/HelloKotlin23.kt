@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 扩展：extension
  * @author liao hua
@@ -20,10 +22,10 @@ fun main(args: Array<String>) {
     println(extensionTest.subtract(2, 2))
     println(extensionTest.multiply(1, 2))
 
-    // 输出 a
+    // 输出 godeep.a
     myPrint(AA())
-    // 输出 a （调用是由对象声明类型所决定的，而不是由对象的实际类型决定）
-    // myPrint 参数类型是由AA 声明的，所以调用AA的a方法
+    // 输出 godeep.a （调用是由对象声明类型所决定的，而不是由对象的实际类型决定）
+    // godeep.myPrint 参数类型是由AA 声明的，所以调用AA的a方法
     myPrint(BB())
 
 
@@ -48,7 +50,7 @@ class BB: AA() {
 }
 
 // 扩展类AA的方法
-fun AA.a() = "a"
+fun AA.a() = "godeep.a"
 // 扩展类BB的方法
 fun BB.a() = "b"
 
@@ -63,6 +65,6 @@ fun myPrint1(bb: BB) {
 }
 
 //// 验证
-//fun main(args: Array<String>) {
+//fun godeep.main(args: Array<String>) {
 //
 //}

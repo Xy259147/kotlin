@@ -1,4 +1,4 @@
-package com.lh.kotlin
+package godeep
 
 fun main(args: Array<String>) {
   // 集合

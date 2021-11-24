@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 实现
  * @author liao hua
@@ -5,13 +7,13 @@
  */
 interface A {
     fun method() {
-        println("A")
+        println("godeep.A")
     }
 }
 
 open class B {
     open fun method() {
-        println("B")
+        println("godeep.B")
     }
 }
 

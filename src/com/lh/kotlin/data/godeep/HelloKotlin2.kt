@@ -1,8 +1,8 @@
-package com.lh.kotlin
+package godeep
 
 // 可以通过 as 设置导入包的别名
-//import com.wecode.demo2.multiply
-import com.lh.kotlin.multiply as multiplyAs
+//import com.wecode.demo2.godeep.multiply
+import godeep.multiply as multiplyAs
 
 /**
  * @author liao hua

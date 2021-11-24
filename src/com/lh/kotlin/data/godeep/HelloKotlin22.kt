@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 可见性 visibility (类似Java中public、private)
  * kotlin 提供4种可见性修饰符：private（私有）、public（公开）、protected（受保护的）、internal（内部）-> kotlin 特有的

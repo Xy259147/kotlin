@@ -1,4 +1,4 @@
-package com.lh.kotlin
+package godeep
 
 // 案例12 简便方法
 /**

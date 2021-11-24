@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 抽象类
  * @author liao hua

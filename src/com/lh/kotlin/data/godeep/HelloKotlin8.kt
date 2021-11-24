@@ -1,4 +1,4 @@
-package com.lh.kotlin
+package godeep
 
 //区间（..）
 fun main(args: Array<String>) {

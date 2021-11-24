@@ -1,4 +1,4 @@
-package com.lh.kotlin
+package godeep
 
 // when 关键字
 fun main(args: Array<String>) {

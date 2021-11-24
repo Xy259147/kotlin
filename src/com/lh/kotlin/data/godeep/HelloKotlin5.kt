@@ -1,4 +1,4 @@
-package com.lh.kotlin
+package godeep
 
 /**
  * @author liao hua

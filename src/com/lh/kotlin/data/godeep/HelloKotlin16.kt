@@ -1,4 +1,4 @@
-package com.lh.kotlin.demo
+package godeep
 
 /**
  * 属性继承
@@ -19,7 +19,7 @@ class MyChild2(override var name: String): MyParent() {
 
 open class MyParent3 {
   open fun method() {
-    println("parent method")
+    println("parent godeep.method")
   }
   open val name: String get() = "parent"
 }
@@ -27,7 +27,7 @@ open class MyParent3 {
 class MyChild3: MyParent3() {
   override fun method() {
     super.method()
-    println("child method")
+    println("child godeep.method")
   }
 
   override val name: String get() = super.name + " and child"

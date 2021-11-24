@@ -1,3 +1,5 @@
+package godeep
+
 /**
  * 对象声明 object declaration
  * @author liao hua
@@ -24,7 +26,7 @@ class MyTest{
         var a: Int = 100
         //@JvmStatic
         fun method() {
-            println("method invoked")
+            println("godeep.method invoked")
         }
     }
 }
@@ -48,7 +50,7 @@ fun main(args: Array<String>) {
 
     println("=============")
     // 伴生对象调用
-    MyTest.MyObject.method()
+    MyTest.method()
 
     println("=============")
     MyTest.method() // 类似于静态方法，kotlin中没有静态方法
